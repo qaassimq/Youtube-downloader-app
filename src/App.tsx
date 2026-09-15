@@ -4,7 +4,7 @@ import { ChannelInput } from './components/ChannelInput';
 import { ConfigPanel } from './components/ConfigPanel';
 import { FolderStructure } from './components/FolderStructure';
 import { ScriptOutput } from './components/ScriptOutput';
-import { DownloadConfig, FolderStructureType } from './types';
+import { DownloadConfig } from './types';
 
 export default function App() {
   const [channelUrl, setChannelUrl] = useState('');

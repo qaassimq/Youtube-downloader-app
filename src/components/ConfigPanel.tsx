@@ -1,3 +1,4 @@
+import React from 'react';
 import { Settings, Cpu, Film, Subtitles, Image, FileText, Gauge, RotateCcw } from 'lucide-react';
 import { DownloadConfig } from '../types';
 
