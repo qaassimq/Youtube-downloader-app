@@ -4,6 +4,7 @@ import { ChannelInput } from './components/ChannelInput';
 import { ConfigPanel } from './components/ConfigPanel';
 import { FolderStructure } from './components/FolderStructure';
 import { ScriptOutput } from './components/ScriptOutput';
+import { QuickRun } from './components/QuickRun';
 import { DownloadConfig } from './types';
 
 export default function App() {
@@ -70,6 +71,15 @@ export default function App() {
                 channelId={extractChannelId(channelUrl)}
               />
             </div>
+          </div>
+
+          {/* Quick Run Section */}
+          <div className="mt-8">
+            <QuickRun
+              channelUrl={channelUrl}
+              config={config}
+              channelId={extractChannelId(channelUrl)}
+            />
           </div>
 
           {/* Full Width - Script Output */}
