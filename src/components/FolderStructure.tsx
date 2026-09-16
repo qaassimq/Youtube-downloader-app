@@ -1,3 +1,4 @@
+import React from 'react';
 import { FolderTree, Folder, FolderOpen, FileVideo, FileText, Image } from 'lucide-react';
 import { DownloadConfig } from '../types';
 

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Download, Zap } from 'lucide-react';
 
 export function Header() {
