@@ -26,6 +26,9 @@ export function Header() {
             <span className="px-3 py-1 text-xs font-medium bg-blue-500/10 text-blue-400 border border-blue-500/20 rounded-full">
               Multi-thread
             </span>
+            <span className="px-3 py-1 text-xs font-medium bg-purple-500/10 text-purple-400 border border-purple-500/20 rounded-full">
+              AI Discovery
+            </span>
           </div>
         </div>
       </div>
